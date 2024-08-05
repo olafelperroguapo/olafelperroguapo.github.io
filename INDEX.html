@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olaf el Mejor</title>
+    <link rel="stylesheet" href="olaf.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background: #ff6600;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #ff6600;
+        }
+        ul {
+            list-style-type: square;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        .highlight {
+            color: #ff6600;
+        }
+        .testimonial {
+            border: 1px solid #ff6600;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .testimonial h3 {
+            margin: 0;
+            color: #ff6600;
+        }
+        .testimonial p {
+            margin: 5px 0 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: calc(33% - 10px);
+            border: 2px solid #ff6600;
+        }
+        @media (max-width: 768px) {
+            .gallery img {
+                width: calc(50% - 10px);
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery img {
+                width: 100%;
+            }
+        }
+    </style>
+    <script src="olaf.js"></script>
+
+</head> 
+<body>
+    <header>
+        <h1>Olaf el Mejor</h1>
+        <p>Una página dedicada a nuestro querido amigo Olaf</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>¿Quién es Olaf?</h2>
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczNzM7oaFHVm9d01ha_z2H5NNI3hfDgO-yBnqOXbiyULwfIBhIRbA_L9VdivKsfWS_Vpuo0uohyAJ3SDa9lXxZKeL7zPpMWp8BbHiPSyNq5MRXbnwhyOc0XQtthJhzg6YNJkZiPM9pSfd4IyL73NqtK7rg=w1216-h913-s-no-gm" alt="Olaf el perro guapo" />
+            <p>Olaf es un chihuahua grande, peludo y de un vibrante color naranja. A pesar de su tamaño pequeño, tiene una gran personalidad y es muy querido por todos.</p>
+        </section>
+
+        <section>
+            <h2>Características de Olaf</h2>
+            <ul>
+                <li>Chihuahua grande</li>
+                <li>Peludito</li>
+                <li>Color naranja</li>
+                <li>Guardían natural</li>
+                <li>Cariñoso y leal</li>
+                <li>Juguetón y energético</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Ventajas del Olaf</h2>
+            <ul>
+                <li>Cabe en cualquier lado</li>
+                <li>Come poco</li>
+                <li>Se baña con poco shampoo</li>
+                <li>Te acompaña para dormir</li>
+                <li>Siempre está feliz</li>
+                <li>Es un gran amigo para los niños</li>
+                <li>No requiere mucho espacio para jugar</li>
+                <li>Fácil de llevar a pasear</li>
+                
+            </ul>
+        </section>
+
+        <section>
+            <h2>Desventajas del Olaf</h2>
+            <ul>
+                <li>Es muy meón</li>
+                <li>Es algo mamón</li>
+                <li>Muerde a desconocidos</li>
+                <li>Pelea con los gatos</li>
+                <li>Es algo mujeriego</li>
+                <li>Se puede poner celoso</li>
+                <li>Necesita mucha atención</li>
+                <li>Requiere cuidados especiales</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Cuidados Especiales</h2>
+            <p>Para mantener a Olaf en óptimas condiciones, consideramos cuidarlo asi:</p>
+            <ul>
+                <li>Chequeos veterinarios</li>
+                <li>Dieta balanceada y adecuada</li>
+                <li>Ejercicio diario</li>
+                <li>Baños frecuentes</li>
+                <li>Revisión de piel y pelaje</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Galería de Olaf</h2>
+            <div class="gallery">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczO1YT-OSHj2v08uCpANlDG4FbmHJt49p_wnrsHgC_gAcu_1rFwcQmy0adQ7NnaY3Ye1g3BY6Yaw5DBfc1l6F_9ba2QwxreDUQk8Yh1bCNNuCc8vermyK1m_18ss1UpIu4gjE0mJhWia8HsVPQocOT66nQ=w685-h913-s-no-gm" alt="Olaf jugando en el jardín" />
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczPAgAkYBjk3Kf7ujKcTTvgsFKxg3miyLeGH0HJja3azFRBs-23kBAt7gWu54Z2mpH_vIc8vbxJ-n2ZDXsVSlBIh23o91nEnZoOmBv5DbadhFuEVcMFiyH44E_0KwwpWV-IgzqqXtAeMrIgRzCn0Vm30SQ=w685-h913-s-no-gm" alt="Olaf con su juguete favorito" />
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczOq2VFl21e4D8MyZE-2uc4jktHiu_wO3eCeRedJdnL2zQcfhr2LgM6OV9Xji_eDcKUpCUtYd3tLn0s--1iq9eqq3brs8pk_TGxK0IIZn3YB48V5gAOELtBW2bi9vS5FQZlOohGG2tUzi6x9VqwKQDkeTg=w688-h913-s-no-gm" alt="Olaf en la playa" />
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczMUGMPxnOlS3zhO5c3z2PL-ioDajYNbne1EIR2qmh_nIuEc3ybRaDSG4MvXi6eGCNNAk060Nlj4yCV_4Nnu3No8v2f5ozqjII11ZaJ-nzPzeBmt34w1X3-6-j9o8kn1v1DnafE6P08isWSR6P3JnVjZEg=w685-h913-s-no-gm" alt="Olaf durmiendo" />
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczOugX_W6y5btruMSwfqrI-sP2jxtUXGNZjmgmbDJp9D8NL5jrT9Ao6AV6GhS0j63nqCe4IY_Yet2gIdP1MM1jM7QMy5uG_ZIt3-G3DQzQlxodk8oA5Y2f16ovg5kWj2fG2W5FJgytlTk9T6NUptJhhtIA=w685-h913-s-no-gm" alt="Olaf en el parque" />
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczNobU9UZ2a-uQDEp2pcI7nyFtWoXafoht8aeN3J71K39kA4M3kh3o9r9SiJWY8eKM2ZJk-YeJC3JQgajxUjFk0cBJ5jfDCej3xljFbkXcZmGTfffUDTQv7LHRpjmSfFy8lROdMUSQUqnrUCYr_bMChw3A=w685-h913-s-no-gm" alt="Olaf con amigos" />
+            </div>
+        </section>
+
+        <section>
+            <h2>Testimonios</h2>
+            <div class="testimonial">
+                <h3>MI MAMA</h3>
+                <p>"Olaf es el perro más cariñoso y divertido que he tenido. Siempre alegra mi día con su energía y su pelaje suave."</p>
+            </div>
+            <div class="testimonial">
+                <h3>MI PAPA</h3>
+                <p>"Es increíble cómo un perro tan pequeño puede tener una personalidad tan grande. Olaf es el compañero perfecto para cualquier ocasión."</p>
+            </div>
+            <div class="testimonial">
+                <h3>Yo</h3>
+                <p>"A pesar de sus pequeñas travesuras, Olaf es un gran amigo. Su color naranja y su pelaje son únicos y adorables."</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Historia de Olaf</h2>
+            <p>Olaf fue adoptado hace 9 años y desde entonces ha traído mucha alegría a nuestra familia. Su historia comenzó en la casa de doña blanquita, fue hijo de rocky y en busca de un hogar amoroso. Desde que llegó a casa, ha demostrado ser un miembro invaluable de la familia.</p>
+            <p>Le encanta salir a pasear, jugar con milky, y especialmente recibir mimos. Su color naranja vibrante y su pelaje peludo hacen que siempre sea el centro de atención.</p>
+        </section>
+
+        <section>
+            <h2>Información Adicional</h2>
+            <p>A continuación, se incluyen algunos datos adicionales sobre Olaf:</p>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Detalles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Olaf</td>
+                    </tr>
+                    <tr>
+                        <td>Raza</td>
+                        <td>Chihuahua</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td>Naranja</td>
+                    </tr>
+                    <tr>
+                        <td>Tamaño</td>
+                        <td>Grande para su raza</td>
+                    </tr>
+                    <tr>
+                        <td>Edad</td>
+                        <td>10 años</td>
+                    </tr>
+                    <tr>
+                        <td>Comida Favorita</td>
+                        <td>pollo</td>
+                    </tr>
+                    <tr>
+                        <td>Juguete Favorito</td>
+                        <td>chuby y milky</td>
+                    </tr>
+                    <tr>
+                        <td>Actividad Favorita</td>
+                        <td>tener relaciones con guera</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Olaf el Mejor. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
